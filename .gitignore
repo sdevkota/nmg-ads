@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log/
+
+# Build files
+build/
+dist/
+out/
+.temp/
+
+# Next.js
+.next/
+.vercel/
+server.js
+server.ts
+.next.cache/
+
+# Public files
+public/*.cache
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# MacOS files
+.DS_Store
+
+# Linux files
+*.swp
+
+# Windows files
+Thumbs.db
