@@ -821,7 +821,7 @@ export default function TestimonialsSection() {
     {
       image: "/images/testimonial-1.jpg",
       name: "Fatima Iqbal",
-      position: "CEO, TechStartup Inc.",
+      position: "Visual Velocity Media",
       quote: "Working with Nepal Media Group transformed our online presence. Their podcast production quality is exceptional, and the video marketing strategies they implemented have doubled our engagement."
     },
     {
