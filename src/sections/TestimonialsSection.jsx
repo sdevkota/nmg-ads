@@ -11,7 +11,7 @@ export default function TestimonialsSection() {
     {
       image: "/images/testimonial-2.jpg",
       name: "Griffin Roberts",
-      position: "Founder, SnapPixFix",
+      position: "Founder, Relentless Pressure Solutions",
       quote: "Truthfully, it was an honor to be invited to the NepalTalks Podcast Studio and to actually be featured on the podcast itself. I've had numerous clients that I've served as well as industry colleagues that actually saw the production. It Was a very rewarding experience to get the opportunity to share A little bit about this chapter of my life. Truthfully, The Pressure Washing business has completely transformed Me as a person and my life as a whole. I very much look forward to the next time with their team."
     },    
     //{
