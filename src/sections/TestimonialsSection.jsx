@@ -1,4 +1,5 @@
 import TestimonialCard from '../components/TestimonialCard';
+import { VideoTestimonial } from './VideoTestimonial';
 
 export default function TestimonialsSection() {
   const testimonials = [
@@ -53,7 +54,15 @@ export default function TestimonialsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="min-h-screen rounded-2xl bg-gradient-to-br from-slate-900 to-purple-900 p-4 md:p-8 flex items-center justify-center">
+      <VideoTestimonial 
+        videoUrl="https://storage.googleapis.com/nepaltalks_public/podcasts/SIDNEY%20JACKSON-TESTIMONIAL.mp4"
+        clientName="Sidney Jackson"
+        clientRole="Satisfied Client"
+        testimonialQuote="Nepal Media Group Podcast Platform is a game changer for people that are looking for business opportunities. I have done many businesses and industries, but I will tell you that I have never had an opportunity to come to a podcast and share contents/information like this before. "
+      />
+    </div>
+        <div className="grid grid-cols-1 mt-10 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
               key={index}
