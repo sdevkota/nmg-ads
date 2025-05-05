@@ -23,7 +23,7 @@ export default function ContactSection() {
     },
     {
       icon: <MapPin className="text-white-600" size={24} />,
-      title: "Visit Us",
+      title: "Podcast Studio",
       info: " 964 High House Rd, Cary, NC 27513",
       link: "https://maps.google.com"
     }

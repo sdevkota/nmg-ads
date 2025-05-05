@@ -15,13 +15,13 @@ export default function TestimonialsSection() {
       position: "Founder, Relentless Pressure Solutions",
       quote: "Truthfully, it was an honor to be invited to the NepalTalks Podcast Studio and to actually be featured on the podcast itself. I've had numerous clients that I've served as well as industry colleagues that actually saw the production. It Was a very rewarding experience to get the opportunity to share A little bit about this chapter of my life. Truthfully, The Pressure Washing business has completely transformed Me as a person and my life as a whole. I very much look forward to the next time with their team."
     },    
-    //{
+    {
       
-//       image: "/images/testimonial-1.jpg",
-//       name: "Fatima Iqbal",
-//       position: "Founder, Crabtree Health ",
-//       quote: "Partnering with Nepal Media Group was the best decision we made for our content strategy. Their audio-visual expertise brought polish and consistency to our message during the launch of our practice, and the boost in visibility has been phenomenal."
-//     },
+      image: "/images/testimonial-1.jpg",
+      name: "Fatima Iqbal",
+      position: "Founder, Crabtree Health ",
+      quote: `Being featured on the NepalTalks Podcast was such a rewarding experience. The environment was warm and professional, and Ananta made it so easy to share my story. Since the episode aired, I've seen a noticeable increase in engagement from the local community, especially those interested in wellness and intentional living—exactly the kind of people I hope to reach through Crabtree Health.The podcast gave me a platform to speak directly to those who value a personalized, holistic approach to health, and it's helped shape how I communicate my mission going forward. I'm grateful to Nepal Media Group for highlighting voices like mine and creating space for meaningful conversations.`
+    },
 //     {
 //       image: "/images/testimonial-2.jpg",
 //       name: "Anjana Budhathoki",
