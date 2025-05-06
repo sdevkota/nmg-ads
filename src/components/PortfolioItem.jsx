@@ -19,7 +19,7 @@ export default function PortfolioItem({ type, image, youtubeId, title }) {
         />
       )}
       <div className="p-4">
-        <h3 className="text-xl font-semibold">{title}</h3>
+        <h3 className="text-lg font-semibold">{title}</h3>
       </div>
     </div>
   );

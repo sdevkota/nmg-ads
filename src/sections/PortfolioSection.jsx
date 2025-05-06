@@ -10,7 +10,7 @@ export default function PortfolioSection() {
     { 
       type: 'video',
       youtubeId: "BrlD4IT0TdQ", 
-      title: "rom Duke Medical to Transforming Weight Loss: Dr. Fatima Iqbal's Story" 
+      title: "From Duke Medical to Transforming Weight Loss: Dr. Fatima Iqbal's Story" 
     },
     { 
       type: 'video',

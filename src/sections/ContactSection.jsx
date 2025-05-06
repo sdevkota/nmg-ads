@@ -1,13 +1,19 @@
 import ContactForm from '../components/ContactForm';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin,Globe } from 'lucide-react';
 
 export default function ContactSection() {
   const contactInfo = [
     {
-      icon: <Mail className="text-white-600" size={24} />,
+      icon: <Globe className="text-white-600" size={24} />,
       title: "CMS Website",
       info: "www.nepaltalks.us",
       link: "https://nepaltalks.us"
+    },
+    {
+      icon: <Globe className="text-white-600" size={24} />,
+      title: "Corporate Website",
+      info: "www.nepalmediagroup.com",
+      link: "https://www.nepalmediagroup.com"
     },
     {
       icon: <Mail className="text-white-600" size={24} />,
