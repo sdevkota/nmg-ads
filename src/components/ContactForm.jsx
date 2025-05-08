@@ -13,7 +13,7 @@ export default function ContactForm() {
   }, []);
 
   return (
-    <div className='flex flex-col md:flex-row items-center lg:flex-row gap-22'>
+    <div className='flex flex-col md:flex-row items-center lg:flex-row gap-2'>
 
       <div>
       <link href="https://meetings.brevo.com/assets/styles/popup.css" rel="stylesheet" />
