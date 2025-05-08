@@ -13,7 +13,36 @@ export default function ContactForm() {
   }, []);
 
   return (
-    <div>
+    <div className='flex flex-col md:flex-row items-center lg:flex-row gap-22'>
+
+      <div>
+      <link href="https://meetings.brevo.com/assets/styles/popup.css" rel="stylesheet" />
+      <a 
+        href="#" 
+        onClick={() => {
+          BrevoBookingPage.initStaticButton({ 
+            url: 'https://meet.brevo.com/nepal-media-group/schedule-a-podcast-with-nepaltalks'
+          });
+          return false;
+        }}
+        style={{
+          cursor: 'pointer',
+          fontFamily: 'Inter',
+          fontWeight: 500,
+          backgroundColor: 'rgb(173 70 255)',
+          color: 'white',
+          padding: '0.5rem 1rem',
+          border: 0,
+          boxShadow: 'rgba(0, 0, 0, 0.15) 0px -2px 0px inset',
+          borderRadius: '16px',
+          textDecoration: 'none',
+          display: 'inline-block'
+        }}
+      >
+        Schedule a Podcast
+      </a>
+      </div>
+      <div>
       <link href="https://meetings.brevo.com/assets/styles/popup.css" rel="stylesheet" />
       <a 
         href="#" 
@@ -37,8 +66,9 @@ export default function ContactForm() {
           display: 'inline-block'
         }}
       >
-        Schedule a Call
+        Schedule a Strategy Call
       </a>
+      </div>
     </div>
   );
 }
