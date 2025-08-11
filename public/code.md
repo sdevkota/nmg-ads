@@ -434,7 +434,7 @@ export default function Hero({ onExploreClick }) {
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6 animate-fadeIn">
-           Are You Looking To Create Video Contents For Your Business?
+           Are You Looking To Create Video Contents For Your Business
           </h1>
           <p className="text-lg lg:text-xl opacity-90 mb-8">
             In today's digital world, content is king—and we help you wear the crown. 

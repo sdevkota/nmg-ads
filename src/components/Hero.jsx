@@ -4,7 +4,7 @@ export default function Hero({ onExploreClick }) {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6 animate-fadeIn">
-           We Will Come To You And Create Real Videos & Podcasts For Your Business?
+           We Will Come To You And Create Real Videos & Podcasts For Your Business
             </h1>
             <h2 className="text-2xl font-bold py-5">AI videos feel impersonal—your customers want to connect with YOU and your vision.</h2>
             <p className="text-lg lg:text-xl opacity-90 mb-8">
